@@ -13,7 +13,7 @@ $zip = "c:\tech\drivers\ecosys-m3655idn-zip"
 $folder = "c:\tech\drivers\ecosys-m3655idn"
 
 # location of the driver including the driver name
-$driverunc = "c:\tech\drivers\ecosys-m3655idn\OEMSETUP.INF"
+$driverunc = "c:\tech\drivers\ecosys-m3655idn\64bit\OEMSETUP.INF"
 
 
 ## Download drivers and add them to print driver store. Seperate script to add the driver and connect to the the printer.
