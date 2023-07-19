@@ -24,7 +24,7 @@ $driverstoreinfpath = (Get-ChildItem -Path "C:\Windows\System32\DriverStore\File
 Add-PrinterPort -Name $portname -PrinterHostAddress $portname
 
 # Add printer driver
-Add-PrinterDriver -Name $drivername -InfPath "$driverstoreinfpath"
+Add-PrinterDriver -Name "$drivername" -InfPath "$driverstoreinfpath"
 
 # Add printer and set printer port
-Add-Printer -Name $drivername -DriverName $drivername -PortName $portname
+Add-Printer -Name $printername -DriverName $drivername -PortName $portname

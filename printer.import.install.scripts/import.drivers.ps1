@@ -29,3 +29,6 @@ Catch {
 
 # Add $dfolder to pnputil.exe
 pnputil.exe /a "$infpath\$infname"
+
+# Delete driver zip
+Remove-Item $dzip

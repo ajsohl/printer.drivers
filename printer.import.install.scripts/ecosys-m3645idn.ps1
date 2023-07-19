@@ -6,7 +6,7 @@
 $printername = "ecosys-m3645idn"
 
 #path where the driver can be downloaded. I got this from downloading it first and then copying the URL from the downloads in Chrome. (e.g. "https://download.brother.com/welcome/dlf102770/Y15C_C1-hostm-J1.EXE")
-$Driverurl = "https://www.kyoceradocumentsolutions.us/content/download-center-americas/us/drivers/drivers/KX830815_zip.download.zip"
+$Driverurl = "https://www.kyoceradocumentsolutions.us/content/download-center-americas/us/drivers/drivers/KX841716_zip.download.zip"
 
 # assigns a name to the downloading zip file
 $dzip = "$printername.zip"
