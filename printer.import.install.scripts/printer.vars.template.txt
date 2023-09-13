@@ -8,7 +8,7 @@ $printername =
 #path where the driver can be downloaded. I got this from downloading it first and then copying the URL from the downloads in Chrome. (e.g. "https://download.brother.com/welcome/dlf102770/Y15C_C1-hostm-J1.EXE")
 $Driverurl = 
 
-# assigns a name to the downloading zip file
+# assigns a name to the downloading zip file (If it's an EXE, copy the original file name from the driverurl e.g. HPEasyStart-13.4.8-OJP9010_49_10_4644_2_Webpack.exe)
 $dzip = "$printername.zip"
 
 # sets the path and name after unzipping

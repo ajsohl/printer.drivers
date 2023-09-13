@@ -3,7 +3,7 @@
 # make sure to save this file as .ps1 (not .txt)
 
 # choose the printer name -- best if it matches the file without extension (e.g. "mfc-l5850dw")
-$printername = "mfc-l2750dw"
+$printername = "Brother-MFC-L2750DW"
 
 #path where the driver can be downloaded. I got this from downloading it first and then copying the URL from the downloads in Chrome. (e.g. "https://download.brother.com/welcome/dlf102770/Y15C_C1-hostm-J1.EXE")
 $Driverurl = "https://download.brother.com/welcome/dlf103411/Y17C_C1-hostm-G1.EXE"

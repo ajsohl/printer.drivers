@@ -3,7 +3,7 @@
 # make sure to save this file as .ps1 (not .txt)
 
 # choose the printer name -- best if it matches the file without extension (e.g. "mfc-l5850dw")
-$printername = "iR-ADV-C5240"
+$printername = "Canon-iR-ADV-C5240"
 
 #path where the driver can be downloaded. I got this from downloading it first and then copying the URL from the downloads in Chrome. (e.g. "https://download.brother.com/welcome/dlf102770/Y15C_C1-hostm-J1.EXE")
 $Driverurl = "https://downloads.canon.com/bicg2022/drivers/Generic_Plus_UFRII_v2.72_Set-up_x64.exe"
